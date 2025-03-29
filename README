@@ -1,0 +1,4 @@
+README
+
+Files:
+parser.php - Used to aggregate statistics across Tor relay descriptor files: https://metrics.torproject.org/collector/recent/relay-descriptors/server-descriptors/
