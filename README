@@ -2,3 +2,22 @@ README
 
 Files:
 parser.php - Used to aggregate statistics across Tor relay descriptor files: https://metrics.torproject.org/collector/recent/relay-descriptors/server-descriptors/
+
+Parser.php - Tor server descriptor files
+Works:
+Bandwidth Observed Average and Total.
+ASN lookup based on IP via 3rd party.
+Caching ASN results to reduce repeat lookup calls.
+Column sorting on the output tables
+Known Issues:
+Family fingerprint grouping usually works but sometimes has duplicate groups.
+Future plans:
+Output summary tables per Family per ASN
+Set up parsing per Day as default time period
+Add charts
+Add detailed server descriptor file parsing
+
+Downloader.php - Download Tor server descriptor files
+Future plans:
+Upload script with inputs for date range
+Add multi threading.
