@@ -16,8 +16,10 @@ Output summary tables per Family per ASN
 Set up parsing per Day as default time period
 Add charts
 Add detailed server descriptor file parsing
+Source files: https://metrics.torproject.org/collector/recent/relay-descriptors/server-descriptors/
 
 Downloader.php - Download Tor server descriptor files
 Future plans:
 Upload script with inputs for date range
 Add multi threading.
+Downloads these files: https://metrics.torproject.org/collector/recent/relay-descriptors/server-descriptors/
